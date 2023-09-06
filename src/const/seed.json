@@ -1,0 +1,2422 @@
+[
+  {
+    "teacher": [
+      {
+        "id": "a7c63cca-7904-4d96-a19e-33b4812e4bf6",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T09:28:40.940Z",
+        "updated_at": "2023-09-06T15:12:36.195Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "216ed5e9-3327-4a2a-996d-0acc30ed3f3c",
+        "subject": "English",
+        "created_at": "2023-09-06T01:59:59.253Z",
+        "updated_at": "2023-09-06T08:26:47.170Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74eced39-5d60-4f59-b9a5-c9c526b641f3",
+        "subject": "Science",
+        "created_at": "2023-09-05T18:22:36.187Z",
+        "updated_at": "2023-09-06T06:35:50.321Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d669c6e1-8932-408b-ac2c-767a73538a8e",
+        "subject": "History",
+        "created_at": "2023-09-06T04:55:06.554Z",
+        "updated_at": "2023-09-05T17:25:10.832Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cd529cd-ae1b-4560-be5b-d34b39575a02",
+        "subject": "Computer Science",
+        "created_at": "2023-09-05T21:43:20.139Z",
+        "updated_at": "2023-09-06T14:43:06.111Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "4ce24e6b-b5cb-4d17-9952-14ba4b67e046",
+        "name": "Class A",
+        "start_time": "2023-09-06T15:04:14.242Z",
+        "end_time": "2023-09-06T00:45:41.699Z",
+        "created_at": "2023-09-06T07:40:33.973Z",
+        "updated_at": "2023-09-06T13:11:07.611Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "d669c6e1-8932-408b-ac2c-767a73538a8e"
+      },
+      {
+        "id": "6325a7e9-3300-49cd-9275-f090734b1e22",
+        "name": "Class B",
+        "start_time": "2023-09-05T18:03:48.098Z",
+        "end_time": "2023-09-05T21:31:44.099Z",
+        "created_at": "2023-09-05T19:08:09.372Z",
+        "updated_at": "2023-09-05T17:06:22.325Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "74eced39-5d60-4f59-b9a5-c9c526b641f3"
+      },
+      {
+        "id": "b742c5ff-da6a-4386-87a7-cf8a445a0bc7",
+        "name": "Class C",
+        "start_time": "2023-09-06T02:11:40.666Z",
+        "end_time": "2023-09-06T02:56:27.158Z",
+        "created_at": "2023-09-06T06:53:03.476Z",
+        "updated_at": "2023-09-06T05:19:50.985Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "d669c6e1-8932-408b-ac2c-767a73538a8e"
+      },
+      {
+        "id": "fe1baa55-9a26-44e5-a9d5-8188ca25c54c",
+        "name": "Class D",
+        "start_time": "2023-09-05T20:12:31.363Z",
+        "end_time": "2023-09-05T18:53:53.903Z",
+        "created_at": "2023-09-05T21:45:46.942Z",
+        "updated_at": "2023-09-06T11:07:41.930Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "5cd529cd-ae1b-4560-be5b-d34b39575a02"
+      },
+      {
+        "id": "45412a66-d0f5-49f9-a7dc-87903dedb244",
+        "name": "Class E",
+        "start_time": "2023-09-06T13:01:25.009Z",
+        "end_time": "2023-09-06T00:18:48.917Z",
+        "created_at": "2023-09-06T05:10:36.478Z",
+        "updated_at": "2023-09-05T21:46:46.957Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "74eced39-5d60-4f59-b9a5-c9c526b641f3"
+      }
+    ],
+    "student": [
+      {
+        "id": "d63321b0-0985-403f-a648-c93b300c4bee",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T03:11:02.572Z",
+        "created_at": "2023-09-05T21:03:53.844Z",
+        "updated_at": "2023-09-06T13:49:21.111Z",
+        "class_id": "4ce24e6b-b5cb-4d17-9952-14ba4b67e046",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b8df1ef-5db6-4ef5-b8c8-ce4e52653791",
+        "first_name": "James",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-05T22:00:31.221Z",
+        "created_at": "2023-09-06T13:21:42.931Z",
+        "updated_at": "2023-09-06T08:54:11.760Z",
+        "class_id": "6325a7e9-3300-49cd-9275-f090734b1e22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c59ccb3f-c7d2-4308-b3de-b3ecfac2f18c",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T08:09:38.368Z",
+        "created_at": "2023-09-06T00:21:36.421Z",
+        "updated_at": "2023-09-05T21:42:11.631Z",
+        "class_id": "6325a7e9-3300-49cd-9275-f090734b1e22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1eecdd73-c5be-49ae-a6d5-9da943373513",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-06T08:06:46.693Z",
+        "created_at": "2023-09-05T19:13:48.248Z",
+        "updated_at": "2023-09-06T00:21:41.028Z",
+        "class_id": "b742c5ff-da6a-4386-87a7-cf8a445a0bc7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90b8e735-979b-4f1e-a3c5-64e15bf7c37b",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "enrollment_date": "2023-09-06T16:29:16.551Z",
+        "created_at": "2023-09-05T18:40:27.310Z",
+        "updated_at": "2023-09-06T02:15:59.628Z",
+        "class_id": "fe1baa55-9a26-44e5-a9d5-8188ca25c54c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "5a77d945-bf0f-425d-bbc6-af5ff15f447d",
+        "date": "2023-09-06T00:38:56.879Z",
+        "status": "Present",
+        "created_at": "2023-09-06T16:08:52.416Z",
+        "updated_at": "2023-09-05T19:40:17.574Z",
+        "class_id": "4ce24e6b-b5cb-4d17-9952-14ba4b67e046",
+        "student_id": "3b8df1ef-5db6-4ef5-b8c8-ce4e52653791"
+      },
+      {
+        "id": "7df3d64c-40d5-4fba-9960-dd82c956b1d8",
+        "date": "2023-09-06T15:43:21.390Z",
+        "status": "Absent",
+        "created_at": "2023-09-05T19:47:07.913Z",
+        "updated_at": "2023-09-05T23:36:12.376Z",
+        "class_id": "fe1baa55-9a26-44e5-a9d5-8188ca25c54c",
+        "student_id": "c59ccb3f-c7d2-4308-b3de-b3ecfac2f18c"
+      },
+      {
+        "id": "a2e17def-4dc4-4600-afbf-2a9eb4af4a5d",
+        "date": "2023-09-06T16:10:21.455Z",
+        "status": "Late",
+        "created_at": "2023-09-06T09:21:01.614Z",
+        "updated_at": "2023-09-06T01:02:25.714Z",
+        "class_id": "b742c5ff-da6a-4386-87a7-cf8a445a0bc7",
+        "student_id": "90b8e735-979b-4f1e-a3c5-64e15bf7c37b"
+      },
+      {
+        "id": "55310171-a032-437c-be19-5f6444a17087",
+        "date": "2023-09-06T09:32:41.932Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T15:56:43.263Z",
+        "updated_at": "2023-09-06T16:21:13.410Z",
+        "class_id": "4ce24e6b-b5cb-4d17-9952-14ba4b67e046",
+        "student_id": "1eecdd73-c5be-49ae-a6d5-9da943373513"
+      },
+      {
+        "id": "0850ec48-c0d0-4990-8651-52c59ca11567",
+        "date": "2023-09-05T21:05:19.479Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T15:41:14.469Z",
+        "updated_at": "2023-09-06T09:09:50.102Z",
+        "class_id": "fe1baa55-9a26-44e5-a9d5-8188ca25c54c",
+        "student_id": "3b8df1ef-5db6-4ef5-b8c8-ce4e52653791"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "79740c2e-ae8e-4f14-a730-d48e364cfe0b",
+        "email": "Lawson_OKon5@gmail.com",
+        "firstName": "Deion",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/557.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "18e8c581-ad06-446c-bc11-00375d03e083",
+        "email": "Linnie.Zemlak15@hotmail.com",
+        "firstName": "Laurie",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32198409",
+        "tenantId": null
+      },
+      {
+        "reference": "aa58c199-eafb-4f69-b7f1-4b65ae34d5a4",
+        "email": "Fausto33@yahoo.com",
+        "firstName": "Jakob",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09d1e4e5-ab2f-4218-8734-cf8208ffc4d7",
+        "email": "Carlo_Towne99@yahoo.com",
+        "firstName": "Sonya",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7539aaf-1624-48f4-a040-2cc86b7ddead",
+        "email": "Jeanie57@hotmail.com",
+        "firstName": "Korbin",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96512444",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "d88f4f89-8e7e-4945-a631-d7bf6ad7dcdb",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T15:08:27.767Z",
+        "updated_at": "2023-09-06T13:13:44.103Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15fe4221-a05f-4ee2-a9d2-c3f635da7328",
+        "subject": "Science",
+        "created_at": "2023-09-06T12:39:44.975Z",
+        "updated_at": "2023-09-06T03:03:39.768Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27eca2eb-a745-462e-80ed-c95d9bad93a4",
+        "subject": "English",
+        "created_at": "2023-09-06T13:36:15.099Z",
+        "updated_at": "2023-09-06T16:41:34.632Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2461547d-ba7b-4939-bb2e-a3faf526675b",
+        "subject": "History",
+        "created_at": "2023-09-05T17:27:47.976Z",
+        "updated_at": "2023-09-06T13:22:08.840Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ddb9372-4363-4f4a-a1a9-1e4d4149236d",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T06:46:56.606Z",
+        "updated_at": "2023-09-06T15:32:08.575Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "77b49013-7073-48a5-9f7a-1fea03c8c436",
+        "name": "Class A",
+        "start_time": "2023-09-06T12:54:38.694Z",
+        "end_time": "2023-09-06T00:49:59.855Z",
+        "created_at": "2023-09-06T02:51:06.638Z",
+        "updated_at": "2023-09-06T08:00:38.401Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "d88f4f89-8e7e-4945-a631-d7bf6ad7dcdb"
+      },
+      {
+        "id": "447be1e4-502b-4db2-9551-df8b3775539e",
+        "name": "Class B",
+        "start_time": "2023-09-05T20:33:58.125Z",
+        "end_time": "2023-09-05T17:06:48.554Z",
+        "created_at": "2023-09-05T17:11:51.778Z",
+        "updated_at": "2023-09-06T12:41:42.207Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "15fe4221-a05f-4ee2-a9d2-c3f635da7328"
+      },
+      {
+        "id": "b8e4b9d8-85c0-44f4-b848-c5421b2db9b3",
+        "name": "Class C",
+        "start_time": "2023-09-05T21:28:47.614Z",
+        "end_time": "2023-09-06T01:29:10.058Z",
+        "created_at": "2023-09-06T16:32:29.358Z",
+        "updated_at": "2023-09-06T03:19:59.108Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "15fe4221-a05f-4ee2-a9d2-c3f635da7328"
+      },
+      {
+        "id": "a402f4e6-4fed-4d0f-9fb3-b7f9fbfbe9bd",
+        "name": "Class D",
+        "start_time": "2023-09-05T20:19:53.901Z",
+        "end_time": "2023-09-06T14:46:22.081Z",
+        "created_at": "2023-09-06T12:43:36.129Z",
+        "updated_at": "2023-09-06T13:09:05.980Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "d88f4f89-8e7e-4945-a631-d7bf6ad7dcdb"
+      },
+      {
+        "id": "bb610583-ca89-420d-ac2c-cab52353d2ab",
+        "name": "Class E",
+        "start_time": "2023-09-06T06:19:18.026Z",
+        "end_time": "2023-09-05T23:27:49.913Z",
+        "created_at": "2023-09-06T11:17:28.284Z",
+        "updated_at": "2023-09-06T11:53:22.748Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "2461547d-ba7b-4939-bb2e-a3faf526675b"
+      }
+    ],
+    "student": [
+      {
+        "id": "e5e6292d-1daa-439c-a597-fe828834eb16",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T07:00:45.788Z",
+        "created_at": "2023-09-05T23:00:32.586Z",
+        "updated_at": "2023-09-06T01:14:51.785Z",
+        "class_id": "77b49013-7073-48a5-9f7a-1fea03c8c436",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cf490a5-5043-4452-8aa1-499b2e9b1ba7",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-05T19:59:41.910Z",
+        "created_at": "2023-09-05T18:35:33.483Z",
+        "updated_at": "2023-09-06T00:03:58.845Z",
+        "class_id": "a402f4e6-4fed-4d0f-9fb3-b7f9fbfbe9bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0caf2b65-a38f-45f8-ba80-87ddf5eee8f2",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-06T11:49:30.702Z",
+        "created_at": "2023-09-06T07:58:40.676Z",
+        "updated_at": "2023-09-06T11:50:41.184Z",
+        "class_id": "447be1e4-502b-4db2-9551-df8b3775539e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bac82b1-c022-44f0-a61a-f8c2436222c8",
+        "first_name": "Jacob",
+        "last_name": "Davis",
+        "enrollment_date": "2023-09-06T05:39:19.114Z",
+        "created_at": "2023-09-06T05:12:50.822Z",
+        "updated_at": "2023-09-06T10:01:17.336Z",
+        "class_id": "a402f4e6-4fed-4d0f-9fb3-b7f9fbfbe9bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0209b5b6-06fe-47c3-9903-cc2f95913347",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "enrollment_date": "2023-09-06T14:19:56.350Z",
+        "created_at": "2023-09-06T13:31:48.144Z",
+        "updated_at": "2023-09-06T03:28:24.561Z",
+        "class_id": "a402f4e6-4fed-4d0f-9fb3-b7f9fbfbe9bd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c46aae16-9561-463e-987c-3bd962c19f04",
+        "date": "2023-09-06T03:50:04.248Z",
+        "status": "Present",
+        "created_at": "2023-09-06T13:45:34.546Z",
+        "updated_at": "2023-09-06T08:03:38.499Z",
+        "class_id": "447be1e4-502b-4db2-9551-df8b3775539e",
+        "student_id": "6cf490a5-5043-4452-8aa1-499b2e9b1ba7"
+      },
+      {
+        "id": "e2e2927f-8b7d-4986-947f-5e5d8128d5d2",
+        "date": "2023-09-06T05:08:29.629Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T14:33:18.540Z",
+        "updated_at": "2023-09-06T03:30:11.479Z",
+        "class_id": "a402f4e6-4fed-4d0f-9fb3-b7f9fbfbe9bd",
+        "student_id": "4bac82b1-c022-44f0-a61a-f8c2436222c8"
+      },
+      {
+        "id": "d54eceab-db9c-421d-8890-7f98d6f8a960",
+        "date": "2023-09-05T22:16:24.112Z",
+        "status": "Late",
+        "created_at": "2023-09-06T16:33:17.825Z",
+        "updated_at": "2023-09-06T01:16:27.763Z",
+        "class_id": "447be1e4-502b-4db2-9551-df8b3775539e",
+        "student_id": "0caf2b65-a38f-45f8-ba80-87ddf5eee8f2"
+      },
+      {
+        "id": "1a8ef158-922a-4ac6-82e1-92729bc3ef96",
+        "date": "2023-09-06T14:25:22.356Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T15:00:41.673Z",
+        "updated_at": "2023-09-05T20:50:24.519Z",
+        "class_id": "447be1e4-502b-4db2-9551-df8b3775539e",
+        "student_id": "0209b5b6-06fe-47c3-9903-cc2f95913347"
+      },
+      {
+        "id": "2e9f5496-7f3c-4ba5-8448-5cb929ace992",
+        "date": "2023-09-05T17:50:10.240Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T15:41:10.416Z",
+        "updated_at": "2023-09-05T22:07:44.468Z",
+        "class_id": "b8e4b9d8-85c0-44f4-b848-c5421b2db9b3",
+        "student_id": "e5e6292d-1daa-439c-a597-fe828834eb16"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b2b55b13-acf0-4eb6-be90-d6832fe498f8",
+        "email": "Lorena_Beatty@hotmail.com",
+        "firstName": "Moses",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72126532",
+        "tenantId": null
+      },
+      {
+        "reference": "7864604d-0e90-4d73-a86a-fcdb25bb45c8",
+        "email": "Demetrius_Borer43@hotmail.com",
+        "firstName": "Corene",
+        "lastName": "Koelpin-Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/877.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19fea33e-63e3-43b7-9358-353698186bef",
+        "email": "Shawna98@yahoo.com",
+        "firstName": "Cynthia",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/369.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94dcf2f8-b1b9-42d2-855f-8d661c3adebb",
+        "email": "Elfrieda91@hotmail.com",
+        "firstName": "Robert",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cab4ac6e-20a7-4b38-a832-7c71c6bb0409",
+        "email": "Colten.VonRueden4@hotmail.com",
+        "firstName": "Aglae",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1139.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "9b01d174-330c-4003-b3e5-5fd7c49ebb21",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T10:34:23.920Z",
+        "updated_at": "2023-09-05T23:25:07.232Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c4e06d7-3500-4988-9ea8-37539b3ad58a",
+        "subject": "Science",
+        "created_at": "2023-09-06T04:31:49.450Z",
+        "updated_at": "2023-09-06T02:20:04.401Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4d14cdc-a12f-4bbd-85c5-f2ffd3e04ee4",
+        "subject": "English",
+        "created_at": "2023-09-06T01:07:04.495Z",
+        "updated_at": "2023-09-06T04:02:58.833Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e69fc8e1-6a0d-4135-a55e-d99e7fbf80d5",
+        "subject": "History",
+        "created_at": "2023-09-06T11:46:13.511Z",
+        "updated_at": "2023-09-06T10:10:03.911Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7efc567a-ba18-4b45-86b9-a2fdbe50eede",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T03:57:49.315Z",
+        "updated_at": "2023-09-05T21:58:59.723Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "e7a45959-cd0e-45cc-a37c-02a52a071180",
+        "name": "Class A",
+        "start_time": "2023-09-05T21:48:31.529Z",
+        "end_time": "2023-09-05T20:37:49.092Z",
+        "created_at": "2023-09-06T10:33:50.046Z",
+        "updated_at": "2023-09-06T14:27:31.941Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "e4d14cdc-a12f-4bbd-85c5-f2ffd3e04ee4"
+      },
+      {
+        "id": "7ebc7ed6-b8c9-4495-91c3-262cc7e93dd1",
+        "name": "Class B",
+        "start_time": "2023-09-05T19:59:36.915Z",
+        "end_time": "2023-09-06T16:35:26.879Z",
+        "created_at": "2023-09-05T23:21:20.630Z",
+        "updated_at": "2023-09-05T23:11:13.249Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "9b01d174-330c-4003-b3e5-5fd7c49ebb21"
+      },
+      {
+        "id": "a73fd233-5d38-4555-bdc2-3e474dfffab6",
+        "name": "Class C",
+        "start_time": "2023-09-06T08:27:31.831Z",
+        "end_time": "2023-09-06T16:13:53.862Z",
+        "created_at": "2023-09-05T21:17:39.552Z",
+        "updated_at": "2023-09-06T12:37:30.816Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "e4d14cdc-a12f-4bbd-85c5-f2ffd3e04ee4"
+      },
+      {
+        "id": "949888e9-ffdf-4fc5-bfea-f4b2750a88f4",
+        "name": "Class D",
+        "start_time": "2023-09-05T21:30:10.040Z",
+        "end_time": "2023-09-05T20:34:00.714Z",
+        "created_at": "2023-09-06T05:39:35.766Z",
+        "updated_at": "2023-09-05T22:51:35.789Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "e69fc8e1-6a0d-4135-a55e-d99e7fbf80d5"
+      },
+      {
+        "id": "e819ec7c-a894-4e9a-8543-546344d452fa",
+        "name": "Class E",
+        "start_time": "2023-09-06T07:49:13.392Z",
+        "end_time": "2023-09-05T17:09:48.666Z",
+        "created_at": "2023-09-05T18:05:34.044Z",
+        "updated_at": "2023-09-06T08:44:35.175Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "9b01d174-330c-4003-b3e5-5fd7c49ebb21"
+      }
+    ],
+    "student": [
+      {
+        "id": "b6575198-9eba-407b-8b99-5a096f192e47",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T13:30:52.688Z",
+        "created_at": "2023-09-05T19:50:30.522Z",
+        "updated_at": "2023-09-05T18:44:33.177Z",
+        "class_id": "949888e9-ffdf-4fc5-bfea-f4b2750a88f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f815cdb9-2ea1-4ee1-8e09-f53ba76576a4",
+        "first_name": "Emma",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-05T20:02:46.567Z",
+        "created_at": "2023-09-05T21:10:03.359Z",
+        "updated_at": "2023-09-05T19:54:28.944Z",
+        "class_id": "949888e9-ffdf-4fc5-bfea-f4b2750a88f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0019646-eb8d-4996-829b-ce55705605cc",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-05T21:22:40.950Z",
+        "created_at": "2023-09-06T12:02:51.792Z",
+        "updated_at": "2023-09-06T09:19:19.571Z",
+        "class_id": "a73fd233-5d38-4555-bdc2-3e474dfffab6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d22d03b2-b30b-4505-bfd0-36c97f031065",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "enrollment_date": "2023-09-05T23:58:24.125Z",
+        "created_at": "2023-09-06T03:01:37.018Z",
+        "updated_at": "2023-09-06T04:08:45.833Z",
+        "class_id": "7ebc7ed6-b8c9-4495-91c3-262cc7e93dd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a8a247a-46de-4266-a75a-8320c414cddb",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "enrollment_date": "2023-09-06T09:52:52.771Z",
+        "created_at": "2023-09-05T18:19:34.511Z",
+        "updated_at": "2023-09-06T08:06:30.174Z",
+        "class_id": "e7a45959-cd0e-45cc-a37c-02a52a071180",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "be078537-1c8d-4d59-8d03-9865c213d0cb",
+        "date": "2023-09-06T16:34:22.417Z",
+        "status": "Present",
+        "created_at": "2023-09-06T03:53:15.975Z",
+        "updated_at": "2023-09-06T13:40:29.424Z",
+        "class_id": "7ebc7ed6-b8c9-4495-91c3-262cc7e93dd1",
+        "student_id": "d22d03b2-b30b-4505-bfd0-36c97f031065"
+      },
+      {
+        "id": "909bcb25-12cf-4162-be73-fc8f5165f52c",
+        "date": "2023-09-05T18:59:45.248Z",
+        "status": "Absent",
+        "created_at": "2023-09-05T19:58:11.986Z",
+        "updated_at": "2023-09-06T01:00:14.281Z",
+        "class_id": "7ebc7ed6-b8c9-4495-91c3-262cc7e93dd1",
+        "student_id": "f815cdb9-2ea1-4ee1-8e09-f53ba76576a4"
+      },
+      {
+        "id": "5888b0b8-1333-473f-a4d8-54de340afeff",
+        "date": "2023-09-06T04:36:17.257Z",
+        "status": "Late",
+        "created_at": "2023-09-06T03:50:53.832Z",
+        "updated_at": "2023-09-06T06:58:55.915Z",
+        "class_id": "7ebc7ed6-b8c9-4495-91c3-262cc7e93dd1",
+        "student_id": "d22d03b2-b30b-4505-bfd0-36c97f031065"
+      },
+      {
+        "id": "525edbcb-2d79-4de2-abe9-83f963de2142",
+        "date": "2023-09-05T20:25:10.465Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T12:44:51.064Z",
+        "updated_at": "2023-09-06T06:58:25.217Z",
+        "class_id": "e7a45959-cd0e-45cc-a37c-02a52a071180",
+        "student_id": "5a8a247a-46de-4266-a75a-8320c414cddb"
+      },
+      {
+        "id": "b2ea2bbd-5414-4ae9-98dc-c09291d87092",
+        "date": "2023-09-06T04:09:42.720Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T05:30:53.431Z",
+        "updated_at": "2023-09-05T20:02:45.803Z",
+        "class_id": "949888e9-ffdf-4fc5-bfea-f4b2750a88f4",
+        "student_id": "d0019646-eb8d-4996-829b-ce55705605cc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a2c9587f-2eda-4584-afc8-101bf8f40276",
+        "email": "Millie60@hotmail.com",
+        "firstName": "Lurline",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/214.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41021110-3233-4a67-948a-57d0aee0a1b0",
+        "email": "Marianne_Borer@gmail.com",
+        "firstName": "Dale",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67de23ef-853e-495f-be28-20c666d41aa3",
+        "email": "Mya.Dickens@gmail.com",
+        "firstName": "Eulah",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54556142",
+        "tenantId": null
+      },
+      {
+        "reference": "9dce7f0c-00a6-4a15-a531-46d24cf2a555",
+        "email": "Asa.Littel@gmail.com",
+        "firstName": "Allene",
+        "lastName": "Lockman-Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29054065",
+        "tenantId": null
+      },
+      {
+        "reference": "ce0bf62b-62de-48a5-8df7-8c451cb59538",
+        "email": "Dorothea47@gmail.com",
+        "firstName": "Madeline",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/997.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "46ee1394-a597-4c97-8841-f348c13cb9fc",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T07:39:25.445Z",
+        "updated_at": "2023-09-06T04:00:45.565Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2431bab0-a1f8-4b18-88b7-4b7adca6a751",
+        "subject": "Science",
+        "created_at": "2023-09-06T03:54:37.328Z",
+        "updated_at": "2023-09-06T10:48:11.027Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a127b9d0-d022-42f5-a6b9-56880a5a9d44",
+        "subject": "English",
+        "created_at": "2023-09-05T19:23:06.275Z",
+        "updated_at": "2023-09-06T00:00:16.483Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64ec8947-744c-4633-aa5c-ba7a5cb4e37d",
+        "subject": "History",
+        "created_at": "2023-09-05T17:37:36.593Z",
+        "updated_at": "2023-09-05T19:59:33.644Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79b34fd3-1510-4a3e-8104-9a5f996893f8",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T06:06:30.754Z",
+        "updated_at": "2023-09-06T15:38:28.899Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "ecd9ae73-d111-4841-81ec-d573d616fb47",
+        "name": "Class A",
+        "start_time": "2023-09-06T03:25:02.312Z",
+        "end_time": "2023-09-06T02:21:20.388Z",
+        "created_at": "2023-09-06T04:09:44.338Z",
+        "updated_at": "2023-09-06T00:01:17.950Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "79b34fd3-1510-4a3e-8104-9a5f996893f8"
+      },
+      {
+        "id": "dde2fe26-3956-435e-a794-3d12ed3978bc",
+        "name": "Class B",
+        "start_time": "2023-09-06T09:19:56.404Z",
+        "end_time": "2023-09-06T08:09:34.675Z",
+        "created_at": "2023-09-06T11:19:11.209Z",
+        "updated_at": "2023-09-06T05:03:54.772Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "2431bab0-a1f8-4b18-88b7-4b7adca6a751"
+      },
+      {
+        "id": "ef775402-d71b-48bd-8557-49f4de9fdb96",
+        "name": "Class C",
+        "start_time": "2023-09-06T06:04:17.628Z",
+        "end_time": "2023-09-06T12:26:18.315Z",
+        "created_at": "2023-09-06T00:27:59.826Z",
+        "updated_at": "2023-09-06T03:34:21.777Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "64ec8947-744c-4633-aa5c-ba7a5cb4e37d"
+      },
+      {
+        "id": "4a127dfa-9e03-4f98-8a46-ca3fe380d650",
+        "name": "Class D",
+        "start_time": "2023-09-06T15:18:43.260Z",
+        "end_time": "2023-09-06T03:49:33.495Z",
+        "created_at": "2023-09-06T15:13:53.347Z",
+        "updated_at": "2023-09-06T11:39:51.350Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "a127b9d0-d022-42f5-a6b9-56880a5a9d44"
+      },
+      {
+        "id": "7a78001b-a4c7-49fc-abaa-5a7e8be49dc8",
+        "name": "Class E",
+        "start_time": "2023-09-05T23:05:36.222Z",
+        "end_time": "2023-09-06T00:22:21.733Z",
+        "created_at": "2023-09-06T14:04:51.433Z",
+        "updated_at": "2023-09-06T08:33:16.705Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "46ee1394-a597-4c97-8841-f348c13cb9fc"
+      }
+    ],
+    "student": [
+      {
+        "id": "901e711f-e95c-40cc-85ee-df14a5d7f84f",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T06:26:58.455Z",
+        "created_at": "2023-09-06T16:44:19.092Z",
+        "updated_at": "2023-09-05T21:25:46.396Z",
+        "class_id": "4a127dfa-9e03-4f98-8a46-ca3fe380d650",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "194bbd21-cf4b-4192-a41b-72899804e744",
+        "first_name": "Noah",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-05T17:28:32.441Z",
+        "created_at": "2023-09-05T20:59:35.023Z",
+        "updated_at": "2023-09-06T01:22:13.704Z",
+        "class_id": "7a78001b-a4c7-49fc-abaa-5a7e8be49dc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d8d084d-60ad-4ad5-9c5e-eed2cc1e7984",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-06T00:08:14.394Z",
+        "created_at": "2023-09-06T09:22:12.725Z",
+        "updated_at": "2023-09-06T16:16:44.525Z",
+        "class_id": "ecd9ae73-d111-4841-81ec-d573d616fb47",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0662b82e-22c4-4a9d-9f10-acc8e542640a",
+        "first_name": "Liam",
+        "last_name": "Lee",
+        "enrollment_date": "2023-09-06T12:46:34.791Z",
+        "created_at": "2023-09-06T12:45:51.558Z",
+        "updated_at": "2023-09-06T07:42:44.197Z",
+        "class_id": "ecd9ae73-d111-4841-81ec-d573d616fb47",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0784a49-50c1-45c6-8df7-b0316ac597aa",
+        "first_name": "Ava",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-05T19:55:43.878Z",
+        "created_at": "2023-09-05T22:43:24.112Z",
+        "updated_at": "2023-09-05T21:43:46.341Z",
+        "class_id": "7a78001b-a4c7-49fc-abaa-5a7e8be49dc8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "e042f103-b493-4f91-a2cb-18fd0d3b1154",
+        "date": "2023-09-05T23:47:41.558Z",
+        "status": "Present",
+        "created_at": "2023-09-06T05:27:44.563Z",
+        "updated_at": "2023-09-06T02:54:27.324Z",
+        "class_id": "ecd9ae73-d111-4841-81ec-d573d616fb47",
+        "student_id": "901e711f-e95c-40cc-85ee-df14a5d7f84f"
+      },
+      {
+        "id": "8732e737-29da-4485-af04-6106fc7f0086",
+        "date": "2023-09-06T14:22:01.650Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T07:05:36.823Z",
+        "updated_at": "2023-09-06T07:56:45.410Z",
+        "class_id": "4a127dfa-9e03-4f98-8a46-ca3fe380d650",
+        "student_id": "901e711f-e95c-40cc-85ee-df14a5d7f84f"
+      },
+      {
+        "id": "68d78e52-6094-4402-b7ad-d41f76e7e390",
+        "date": "2023-09-05T22:46:11.878Z",
+        "status": "Late",
+        "created_at": "2023-09-05T19:30:51.234Z",
+        "updated_at": "2023-09-05T18:13:04.331Z",
+        "class_id": "ef775402-d71b-48bd-8557-49f4de9fdb96",
+        "student_id": "7d8d084d-60ad-4ad5-9c5e-eed2cc1e7984"
+      },
+      {
+        "id": "293e555b-6c4e-4e5e-9217-28cbba829d4b",
+        "date": "2023-09-06T16:45:30.301Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T01:23:36.856Z",
+        "updated_at": "2023-09-05T18:08:11.016Z",
+        "class_id": "ecd9ae73-d111-4841-81ec-d573d616fb47",
+        "student_id": "0662b82e-22c4-4a9d-9f10-acc8e542640a"
+      },
+      {
+        "id": "30a8191e-71f7-4cbb-849a-b7776068a9ad",
+        "date": "2023-09-06T02:48:34.836Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T12:36:49.303Z",
+        "updated_at": "2023-09-06T12:52:16.074Z",
+        "class_id": "dde2fe26-3956-435e-a794-3d12ed3978bc",
+        "student_id": "7d8d084d-60ad-4ad5-9c5e-eed2cc1e7984"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f007725-062e-4d57-967e-7f2667fbb5c7",
+        "email": "Lloyd.Cormier92@hotmail.com",
+        "firstName": "Kris",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71010199",
+        "tenantId": null
+      },
+      {
+        "reference": "68fa9e38-c4cc-4531-9c1b-9a363bd3c415",
+        "email": "Gregory.Cummerata3@hotmail.com",
+        "firstName": "Haleigh",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/644.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12ee2104-da1c-4ccc-9ef2-a10a672b872d",
+        "email": "Abigale83@hotmail.com",
+        "firstName": "Jack",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18048700",
+        "tenantId": null
+      },
+      {
+        "reference": "46ffc6a6-b772-496e-a166-0e30d094e4fa",
+        "email": "Domingo_Feil59@gmail.com",
+        "firstName": "Renee",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11310412",
+        "tenantId": null
+      },
+      {
+        "reference": "6d0d37ef-a56e-416b-88ba-2846730af890",
+        "email": "Durward49@yahoo.com",
+        "firstName": "Delilah",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "06173999-ed89-4b72-8d90-e6dbd344b620",
+        "subject": "Mathematics",
+        "created_at": "2023-09-05T18:53:03.076Z",
+        "updated_at": "2023-09-06T03:37:33.202Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca0ac900-f2b7-44c8-840c-be9ca286cb95",
+        "subject": "English",
+        "created_at": "2023-09-06T00:45:23.567Z",
+        "updated_at": "2023-09-06T08:26:29.096Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ed5b36c-bf2f-4d27-84d9-100232243c13",
+        "subject": "Science",
+        "created_at": "2023-09-06T02:21:47.060Z",
+        "updated_at": "2023-09-06T06:11:43.441Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "991b9f58-ef92-4fdf-926e-567d781c45b7",
+        "subject": "History",
+        "created_at": "2023-09-06T02:42:26.304Z",
+        "updated_at": "2023-09-06T12:53:35.887Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5563b9f-a75f-43dc-b9ff-6ccdc7488305",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T13:43:06.803Z",
+        "updated_at": "2023-09-06T10:17:52.324Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "f167c294-9b6b-4dfe-b783-a26ff2b46ee7",
+        "name": "Class A",
+        "start_time": "2023-09-05T22:41:13.713Z",
+        "end_time": "2023-09-06T11:01:09.378Z",
+        "created_at": "2023-09-05T19:18:18.591Z",
+        "updated_at": "2023-09-05T20:54:39.779Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "7ed5b36c-bf2f-4d27-84d9-100232243c13"
+      },
+      {
+        "id": "24ebbbdb-fe98-4259-89d6-db95a35a59d1",
+        "name": "Class B",
+        "start_time": "2023-09-06T00:38:00.950Z",
+        "end_time": "2023-09-06T12:05:23.325Z",
+        "created_at": "2023-09-05T19:50:52.789Z",
+        "updated_at": "2023-09-05T21:18:35.794Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "06173999-ed89-4b72-8d90-e6dbd344b620"
+      },
+      {
+        "id": "6f17fd4f-a4b9-4e82-aa62-f5d728e6c643",
+        "name": "Class C",
+        "start_time": "2023-09-06T00:14:15.898Z",
+        "end_time": "2023-09-05T17:51:44.595Z",
+        "created_at": "2023-09-06T04:14:59.887Z",
+        "updated_at": "2023-09-05T19:06:55.978Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "7ed5b36c-bf2f-4d27-84d9-100232243c13"
+      },
+      {
+        "id": "d2790da7-56ab-4d0b-81c4-1aa997ac158d",
+        "name": "Class D",
+        "start_time": "2023-09-06T09:18:50.622Z",
+        "end_time": "2023-09-06T04:14:57.486Z",
+        "created_at": "2023-09-06T00:36:18.744Z",
+        "updated_at": "2023-09-06T15:28:56.034Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "a5563b9f-a75f-43dc-b9ff-6ccdc7488305"
+      },
+      {
+        "id": "5135969b-b7eb-4ed8-9f96-33909eb0b486",
+        "name": "Class E",
+        "start_time": "2023-09-05T20:45:43.201Z",
+        "end_time": "2023-09-05T17:04:58.119Z",
+        "created_at": "2023-09-06T08:56:41.985Z",
+        "updated_at": "2023-09-06T09:04:22.539Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "06173999-ed89-4b72-8d90-e6dbd344b620"
+      }
+    ],
+    "student": [
+      {
+        "id": "dd3446b2-87ae-4c3c-9fef-924b741a5cd8",
+        "first_name": "Adam",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-05T18:18:27.670Z",
+        "created_at": "2023-09-06T15:29:57.592Z",
+        "updated_at": "2023-09-06T00:38:54.277Z",
+        "class_id": "f167c294-9b6b-4dfe-b783-a26ff2b46ee7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "920e8883-3f45-40bb-ae13-43b85f45ca2b",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-05T22:24:41.674Z",
+        "created_at": "2023-09-06T01:00:20.675Z",
+        "updated_at": "2023-09-06T04:53:01.333Z",
+        "class_id": "24ebbbdb-fe98-4259-89d6-db95a35a59d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7efa496-c3b9-429f-a4f5-b6b2a8d8adbc",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-06T05:35:43.735Z",
+        "created_at": "2023-09-06T04:12:12.218Z",
+        "updated_at": "2023-09-06T09:05:46.051Z",
+        "class_id": "24ebbbdb-fe98-4259-89d6-db95a35a59d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0879a21c-a73d-48fc-82ef-c9ae6d25b44b",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "enrollment_date": "2023-09-05T23:56:21.329Z",
+        "created_at": "2023-09-06T12:06:41.222Z",
+        "updated_at": "2023-09-05T17:26:06.169Z",
+        "class_id": "6f17fd4f-a4b9-4e82-aa62-f5d728e6c643",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f7d6b43-a158-4087-a1ff-2db29cfe2627",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T03:27:47.010Z",
+        "created_at": "2023-09-06T07:14:49.859Z",
+        "updated_at": "2023-09-06T11:03:13.147Z",
+        "class_id": "d2790da7-56ab-4d0b-81c4-1aa997ac158d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "fdf3aaa1-cd14-46ea-b37f-4b6de348cc64",
+        "date": "2023-09-06T10:57:06.580Z",
+        "status": "Present",
+        "created_at": "2023-09-06T01:19:01.985Z",
+        "updated_at": "2023-09-06T07:49:31.579Z",
+        "class_id": "d2790da7-56ab-4d0b-81c4-1aa997ac158d",
+        "student_id": "0879a21c-a73d-48fc-82ef-c9ae6d25b44b"
+      },
+      {
+        "id": "ea691767-c67a-4a0e-9584-f9703fd65658",
+        "date": "2023-09-06T09:47:52.990Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T03:43:53.046Z",
+        "updated_at": "2023-09-05T18:36:42.338Z",
+        "class_id": "d2790da7-56ab-4d0b-81c4-1aa997ac158d",
+        "student_id": "3f7d6b43-a158-4087-a1ff-2db29cfe2627"
+      },
+      {
+        "id": "c4c5159d-02e1-4a04-83f6-b6078cd6eea0",
+        "date": "2023-09-05T18:14:34.750Z",
+        "status": "Late",
+        "created_at": "2023-09-06T07:50:22.481Z",
+        "updated_at": "2023-09-06T07:04:33.414Z",
+        "class_id": "f167c294-9b6b-4dfe-b783-a26ff2b46ee7",
+        "student_id": "0879a21c-a73d-48fc-82ef-c9ae6d25b44b"
+      },
+      {
+        "id": "f78af01b-2c22-491b-9e92-858067960cdd",
+        "date": "2023-09-06T04:20:19.241Z",
+        "status": "Excused",
+        "created_at": "2023-09-05T20:38:24.806Z",
+        "updated_at": "2023-09-06T00:53:18.995Z",
+        "class_id": "f167c294-9b6b-4dfe-b783-a26ff2b46ee7",
+        "student_id": "dd3446b2-87ae-4c3c-9fef-924b741a5cd8"
+      },
+      {
+        "id": "416764d8-7559-4ed6-86af-cca8555ce569",
+        "date": "2023-09-06T14:07:58.479Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T04:34:10.943Z",
+        "updated_at": "2023-09-06T03:21:50.390Z",
+        "class_id": "24ebbbdb-fe98-4259-89d6-db95a35a59d1",
+        "student_id": "920e8883-3f45-40bb-ae13-43b85f45ca2b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "313249fe-41ba-4bfb-b26d-d2e688f03767",
+        "email": "Morris_Johnson@hotmail.com",
+        "firstName": "Unique",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50269714",
+        "tenantId": null
+      },
+      {
+        "reference": "b46d3a51-90ee-475c-abfa-ca6bdc6eb0ab",
+        "email": "Germaine.Tillman52@hotmail.com",
+        "firstName": "Patricia",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "128d7e63-8574-4e50-8c8a-26b546f74564",
+        "email": "Rico.Oberbrunner75@hotmail.com",
+        "firstName": "Vicky",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9421534",
+        "tenantId": null
+      },
+      {
+        "reference": "77b11128-a8ac-4047-ab07-5e5aa1c7ccb9",
+        "email": "Susie62@yahoo.com",
+        "firstName": "Blaise",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59881958",
+        "tenantId": null
+      },
+      {
+        "reference": "bbc35ae9-8f1a-4bbc-85b1-17bceb55cda0",
+        "email": "Madeline_Weber@hotmail.com",
+        "firstName": "Corbin",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79834402",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "70dd9f7c-3bfd-4e50-b16a-45a4b06ddc29",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T08:40:48.608Z",
+        "updated_at": "2023-09-05T21:13:15.938Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e5ff1bf-5bb4-4c38-883f-707c43a124f7",
+        "subject": "English Literature",
+        "created_at": "2023-09-06T05:10:11.383Z",
+        "updated_at": "2023-09-06T01:52:05.285Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19cf1f45-719f-493a-9fa5-3670a65f4668",
+        "subject": "Science",
+        "created_at": "2023-09-06T13:10:41.042Z",
+        "updated_at": "2023-09-06T13:10:25.734Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "858c9b8c-0990-4148-a263-c22104e1997f",
+        "subject": "History",
+        "created_at": "2023-09-05T20:24:40.565Z",
+        "updated_at": "2023-09-06T03:02:31.258Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "731e32b6-54e9-4de8-b41b-1948afd08261",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T02:19:53.241Z",
+        "updated_at": "2023-09-06T07:16:25.232Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "f7734a1a-3630-45f6-b3e3-a4ded12995c9",
+        "name": "Class A",
+        "start_time": "2023-09-06T08:59:22.532Z",
+        "end_time": "2023-09-06T10:13:14.064Z",
+        "created_at": "2023-09-06T06:30:28.464Z",
+        "updated_at": "2023-09-06T03:35:07.108Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "19cf1f45-719f-493a-9fa5-3670a65f4668"
+      },
+      {
+        "id": "abb251a2-a990-49e5-b241-ff5b5e1b2f56",
+        "name": "Class B",
+        "start_time": "2023-09-05T20:23:08.689Z",
+        "end_time": "2023-09-05T23:55:21.759Z",
+        "created_at": "2023-09-05T23:33:32.325Z",
+        "updated_at": "2023-09-06T09:13:23.350Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "0e5ff1bf-5bb4-4c38-883f-707c43a124f7"
+      },
+      {
+        "id": "8d8d5b0b-fd0a-4f92-8f09-9f30b68fd78c",
+        "name": "Class C",
+        "start_time": "2023-09-06T15:19:58.004Z",
+        "end_time": "2023-09-06T11:10:51.832Z",
+        "created_at": "2023-09-06T13:25:53.536Z",
+        "updated_at": "2023-09-06T01:22:56.082Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "19cf1f45-719f-493a-9fa5-3670a65f4668"
+      },
+      {
+        "id": "43699692-170c-4cf2-820d-5c9ade773c61",
+        "name": "Class D",
+        "start_time": "2023-09-06T11:42:42.311Z",
+        "end_time": "2023-09-05T18:39:04.198Z",
+        "created_at": "2023-09-06T13:11:58.056Z",
+        "updated_at": "2023-09-06T08:41:26.422Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "19cf1f45-719f-493a-9fa5-3670a65f4668"
+      },
+      {
+        "id": "d301e65b-0f86-441f-8215-8b16bd617d6d",
+        "name": "Class E",
+        "start_time": "2023-09-06T05:11:30.118Z",
+        "end_time": "2023-09-05T23:23:03.362Z",
+        "created_at": "2023-09-06T09:19:55.321Z",
+        "updated_at": "2023-09-06T15:02:24.055Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "0e5ff1bf-5bb4-4c38-883f-707c43a124f7"
+      }
+    ],
+    "student": [
+      {
+        "id": "6f00c17e-f18e-4a3e-b81e-e436c585b5dd",
+        "first_name": "Alex",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T10:22:56.192Z",
+        "created_at": "2023-09-06T01:26:35.792Z",
+        "updated_at": "2023-09-05T20:41:48.732Z",
+        "class_id": "43699692-170c-4cf2-820d-5c9ade773c61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "271d29af-f660-466d-ad77-f0dbbcb7199a",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "enrollment_date": "2023-09-05T23:10:47.859Z",
+        "created_at": "2023-09-06T04:03:48.734Z",
+        "updated_at": "2023-09-06T01:14:45.464Z",
+        "class_id": "d301e65b-0f86-441f-8215-8b16bd617d6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99b6127b-4e11-4a16-a00f-8e3394adca3f",
+        "first_name": "Daniel",
+        "last_name": "Thomas",
+        "enrollment_date": "2023-09-05T17:00:55.404Z",
+        "created_at": "2023-09-06T10:27:40.959Z",
+        "updated_at": "2023-09-06T07:17:18.088Z",
+        "class_id": "f7734a1a-3630-45f6-b3e3-a4ded12995c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d79c6ce-04f3-4e31-9b11-3cb836aa2871",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T01:38:51.471Z",
+        "created_at": "2023-09-06T10:53:50.683Z",
+        "updated_at": "2023-09-06T14:01:25.542Z",
+        "class_id": "f7734a1a-3630-45f6-b3e3-a4ded12995c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58d153fd-4a15-4512-8145-20daef8fe6eb",
+        "first_name": "Ethan",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-06T16:44:46.136Z",
+        "created_at": "2023-09-06T14:31:44.609Z",
+        "updated_at": "2023-09-06T06:22:06.385Z",
+        "class_id": "8d8d5b0b-fd0a-4f92-8f09-9f30b68fd78c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "42fe199b-e846-4a0f-adc3-4af3f40ce065",
+        "date": "2023-09-05T22:26:48.836Z",
+        "status": "Present",
+        "created_at": "2023-09-05T20:14:36.572Z",
+        "updated_at": "2023-09-06T06:06:45.314Z",
+        "class_id": "f7734a1a-3630-45f6-b3e3-a4ded12995c9",
+        "student_id": "6f00c17e-f18e-4a3e-b81e-e436c585b5dd"
+      },
+      {
+        "id": "3d8322a0-f32c-41e5-a205-fe11070bd74e",
+        "date": "2023-09-05T23:36:43.475Z",
+        "status": "Absent",
+        "created_at": "2023-09-05T22:36:43.092Z",
+        "updated_at": "2023-09-06T09:23:03.236Z",
+        "class_id": "d301e65b-0f86-441f-8215-8b16bd617d6d",
+        "student_id": "6f00c17e-f18e-4a3e-b81e-e436c585b5dd"
+      },
+      {
+        "id": "a1958c5a-dadf-4e0b-b0b0-8d8435d0ce0f",
+        "date": "2023-09-06T14:47:31.840Z",
+        "status": "Late",
+        "created_at": "2023-09-05T17:06:46.505Z",
+        "updated_at": "2023-09-06T05:22:01.173Z",
+        "class_id": "d301e65b-0f86-441f-8215-8b16bd617d6d",
+        "student_id": "6f00c17e-f18e-4a3e-b81e-e436c585b5dd"
+      },
+      {
+        "id": "c0565b8c-dbf9-4a29-8e62-48e2e83b4c3e",
+        "date": "2023-09-05T19:31:53.440Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T02:23:47.181Z",
+        "updated_at": "2023-09-05T17:37:40.726Z",
+        "class_id": "f7734a1a-3630-45f6-b3e3-a4ded12995c9",
+        "student_id": "99b6127b-4e11-4a16-a00f-8e3394adca3f"
+      },
+      {
+        "id": "b85b0379-91ba-4caa-82e2-8a899217c8e9",
+        "date": "2023-09-06T04:48:13.281Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T06:35:58.206Z",
+        "updated_at": "2023-09-06T02:03:23.740Z",
+        "class_id": "43699692-170c-4cf2-820d-5c9ade773c61",
+        "student_id": "58d153fd-4a15-4512-8145-20daef8fe6eb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "caa7cfb2-869e-4b68-8c0f-4d68d072f79c",
+        "email": "Flavie_Lang20@hotmail.com",
+        "firstName": "Jada",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50658346",
+        "tenantId": null
+      },
+      {
+        "reference": "f420b106-353f-4b04-80a0-f310853d8cf9",
+        "email": "Sydni.Batz@gmail.com",
+        "firstName": "Emely",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50763842",
+        "tenantId": null
+      },
+      {
+        "reference": "d23d2abb-d71d-4711-92d6-7d7cd7751551",
+        "email": "Fern_Satterfield@hotmail.com",
+        "firstName": "Ernest",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/229.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f09f048-fb34-4fde-ac81-ad3346c40332",
+        "email": "Kaylee.Mann9@yahoo.com",
+        "firstName": "Cassandra",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/873791",
+        "tenantId": null
+      },
+      {
+        "reference": "ecf1d000-366f-439c-b831-07d4c4633ca0",
+        "email": "Kole60@yahoo.com",
+        "firstName": "Casey",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1044.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "28f94433-e93a-4901-9f90-69937fb6d92b",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T01:38:50.370Z",
+        "updated_at": "2023-09-05T22:28:12.463Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0915aab0-e717-4310-82a3-ff37e35e1329",
+        "subject": "Science",
+        "created_at": "2023-09-05T19:27:35.595Z",
+        "updated_at": "2023-09-06T12:53:02.546Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e294d4-a0a0-41b7-a8fc-51b42e8bec28",
+        "subject": "English",
+        "created_at": "2023-09-05T20:55:06.811Z",
+        "updated_at": "2023-09-06T06:57:49.173Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4562b87-3628-4e44-980e-8f234199855e",
+        "subject": "History",
+        "created_at": "2023-09-06T14:18:50.249Z",
+        "updated_at": "2023-09-05T18:20:46.710Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92aa5302-f8d3-4dc6-9d29-16e6ae2ecb3e",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T00:54:17.090Z",
+        "updated_at": "2023-09-05T20:42:20.478Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "a807d59a-7689-4029-875d-c04387f62d7a",
+        "name": "Class A",
+        "start_time": "2023-09-06T01:57:09.598Z",
+        "end_time": "2023-09-06T05:13:08.492Z",
+        "created_at": "2023-09-05T19:56:47.035Z",
+        "updated_at": "2023-09-05T20:58:39.082Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "28f94433-e93a-4901-9f90-69937fb6d92b"
+      },
+      {
+        "id": "7b539a6d-9164-442b-80a3-df04bf1ec1ca",
+        "name": "Class B",
+        "start_time": "2023-09-05T21:31:46.593Z",
+        "end_time": "2023-09-06T00:18:38.891Z",
+        "created_at": "2023-09-05T23:32:51.201Z",
+        "updated_at": "2023-09-05T22:00:27.497Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "0915aab0-e717-4310-82a3-ff37e35e1329"
+      },
+      {
+        "id": "b8116c04-ccbf-453d-8722-01542fe2e484",
+        "name": "Class C",
+        "start_time": "2023-09-06T05:51:28.657Z",
+        "end_time": "2023-09-06T16:12:19.472Z",
+        "created_at": "2023-09-05T21:07:01.987Z",
+        "updated_at": "2023-09-06T12:39:49.156Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "d5e294d4-a0a0-41b7-a8fc-51b42e8bec28"
+      },
+      {
+        "id": "fe1afce3-0028-40b3-b881-2f322b001f6c",
+        "name": "Class D",
+        "start_time": "2023-09-05T17:59:51.781Z",
+        "end_time": "2023-09-06T01:15:00.870Z",
+        "created_at": "2023-09-06T12:54:32.004Z",
+        "updated_at": "2023-09-06T02:19:03.803Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "28f94433-e93a-4901-9f90-69937fb6d92b"
+      },
+      {
+        "id": "b9a82a2c-c4b2-49da-ab48-e98dcf6b8e56",
+        "name": "Class E",
+        "start_time": "2023-09-06T08:55:45.344Z",
+        "end_time": "2023-09-06T10:33:54.728Z",
+        "created_at": "2023-09-06T11:22:47.353Z",
+        "updated_at": "2023-09-06T15:24:37.879Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "0915aab0-e717-4310-82a3-ff37e35e1329"
+      }
+    ],
+    "student": [
+      {
+        "id": "88a153e7-dc5c-4cd4-9809-0248f9a8ed09",
+        "first_name": "John",
+        "last_name": "Doe",
+        "enrollment_date": "2023-09-06T16:29:05.500Z",
+        "created_at": "2023-09-06T00:06:31.398Z",
+        "updated_at": "2023-09-05T17:16:38.337Z",
+        "class_id": "fe1afce3-0028-40b3-b881-2f322b001f6c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcbdd03e-333f-47f2-9b6e-9c67ddcfc97a",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-05T23:33:29.499Z",
+        "created_at": "2023-09-06T08:56:26.668Z",
+        "updated_at": "2023-09-06T03:17:20.037Z",
+        "class_id": "7b539a6d-9164-442b-80a3-df04bf1ec1ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83286475-a0eb-41a1-a075-24ada9cd13b8",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-06T07:12:45.018Z",
+        "created_at": "2023-09-05T22:27:09.120Z",
+        "updated_at": "2023-09-06T11:58:56.732Z",
+        "class_id": "b9a82a2c-c4b2-49da-ab48-e98dcf6b8e56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "324d62ad-d7da-428d-a622-e7d15618009b",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "enrollment_date": "2023-09-05T23:45:35.478Z",
+        "created_at": "2023-09-05T21:17:45.949Z",
+        "updated_at": "2023-09-05T18:44:52.812Z",
+        "class_id": "7b539a6d-9164-442b-80a3-df04bf1ec1ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba16e922-4188-4b21-8bac-495b11e3de26",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-05T20:53:40.314Z",
+        "created_at": "2023-09-06T03:23:39.815Z",
+        "updated_at": "2023-09-05T17:55:25.662Z",
+        "class_id": "a807d59a-7689-4029-875d-c04387f62d7a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "49d79f24-b364-42b0-a0f5-ec25962f4177",
+        "date": "2023-09-06T00:00:24.996Z",
+        "status": "Present",
+        "created_at": "2023-09-06T13:24:30.150Z",
+        "updated_at": "2023-09-06T09:00:56.979Z",
+        "class_id": "b8116c04-ccbf-453d-8722-01542fe2e484",
+        "student_id": "88a153e7-dc5c-4cd4-9809-0248f9a8ed09"
+      },
+      {
+        "id": "7227aa70-d5f2-4ffa-9eeb-c32f99280e1b",
+        "date": "2023-09-06T15:36:10.268Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T11:05:29.558Z",
+        "updated_at": "2023-09-06T14:49:18.116Z",
+        "class_id": "a807d59a-7689-4029-875d-c04387f62d7a",
+        "student_id": "ba16e922-4188-4b21-8bac-495b11e3de26"
+      },
+      {
+        "id": "e8593420-0c95-4e75-aee4-6eb9b0ac5e5b",
+        "date": "2023-09-06T03:11:46.609Z",
+        "status": "Late",
+        "created_at": "2023-09-06T16:34:45.018Z",
+        "updated_at": "2023-09-06T07:09:09.003Z",
+        "class_id": "fe1afce3-0028-40b3-b881-2f322b001f6c",
+        "student_id": "83286475-a0eb-41a1-a075-24ada9cd13b8"
+      },
+      {
+        "id": "9330bce7-f83e-4ca5-aed3-d3e60c0e372a",
+        "date": "2023-09-06T03:44:04.824Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T10:02:26.017Z",
+        "updated_at": "2023-09-05T22:26:29.391Z",
+        "class_id": "b9a82a2c-c4b2-49da-ab48-e98dcf6b8e56",
+        "student_id": "88a153e7-dc5c-4cd4-9809-0248f9a8ed09"
+      },
+      {
+        "id": "320c0c75-13e1-4d7d-aa0d-402bacadc887",
+        "date": "2023-09-06T15:15:41.865Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T09:12:30.708Z",
+        "updated_at": "2023-09-06T00:13:13.248Z",
+        "class_id": "7b539a6d-9164-442b-80a3-df04bf1ec1ca",
+        "student_id": "ba16e922-4188-4b21-8bac-495b11e3de26"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7aa168ba-38f1-4459-89ab-046615b23d55",
+        "email": "Isaiah62@yahoo.com",
+        "firstName": "Tobin",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48124792",
+        "tenantId": null
+      },
+      {
+        "reference": "9ba30703-4598-4f36-8696-a3e0bf621649",
+        "email": "Brain.Breitenberg92@yahoo.com",
+        "firstName": "Otis",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5445089",
+        "tenantId": null
+      },
+      {
+        "reference": "9a435b25-a7ec-43d3-8649-33f1511563ce",
+        "email": "Krystina_Franecki1@hotmail.com",
+        "firstName": "Rowena",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44470375",
+        "tenantId": null
+      },
+      {
+        "reference": "d58c049e-f923-4af7-9bce-e53641db253a",
+        "email": "Levi_Turner79@gmail.com",
+        "firstName": "Elvie",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac396a20-e70f-433c-a626-c9d2adec4943",
+        "email": "Lela21@hotmail.com",
+        "firstName": "Zane",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92625336",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "21d92879-9c5d-4418-a313-27be1a7af4b1",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T13:06:38.817Z",
+        "updated_at": "2023-09-06T06:17:03.599Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d74ed312-5f6d-4701-8103-2b2b7530e326",
+        "subject": "Science",
+        "created_at": "2023-09-06T02:10:46.766Z",
+        "updated_at": "2023-09-06T07:40:51.668Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c69cf51f-53a2-4424-93f6-d4cd3e9eb3dd",
+        "subject": "English",
+        "created_at": "2023-09-06T09:31:50.936Z",
+        "updated_at": "2023-09-05T16:50:54.565Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3018032a-3008-4e70-99a4-cfdb5117b35e",
+        "subject": "History",
+        "created_at": "2023-09-06T07:20:23.881Z",
+        "updated_at": "2023-09-06T00:58:35.064Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bed9090-95c8-4665-a7f1-9d2453c57b2f",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T12:29:08.577Z",
+        "updated_at": "2023-09-06T00:19:03.252Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "7875dc19-2790-4617-85cc-696248320c60",
+        "name": "Class A",
+        "start_time": "2023-09-06T11:08:19.728Z",
+        "end_time": "2023-09-06T08:46:38.835Z",
+        "created_at": "2023-09-06T15:22:39.111Z",
+        "updated_at": "2023-09-06T15:41:39.769Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "3018032a-3008-4e70-99a4-cfdb5117b35e"
+      },
+      {
+        "id": "2596ac31-ae90-4077-b868-38e6e2e399de",
+        "name": "Class B",
+        "start_time": "2023-09-05T21:38:16.635Z",
+        "end_time": "2023-09-05T23:46:41.077Z",
+        "created_at": "2023-09-06T10:51:52.490Z",
+        "updated_at": "2023-09-05T21:50:11.957Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "21d92879-9c5d-4418-a313-27be1a7af4b1"
+      },
+      {
+        "id": "da5838e2-ad0c-4ac0-82dd-d6793d66d7d6",
+        "name": "Class C",
+        "start_time": "2023-09-06T15:51:14.058Z",
+        "end_time": "2023-09-06T03:22:20.906Z",
+        "created_at": "2023-09-06T01:35:26.776Z",
+        "updated_at": "2023-09-06T12:14:41.812Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "3018032a-3008-4e70-99a4-cfdb5117b35e"
+      },
+      {
+        "id": "11f4ed63-6f29-42f3-a74a-b3cce5cc1b24",
+        "name": "Class D",
+        "start_time": "2023-09-06T05:43:51.431Z",
+        "end_time": "2023-09-06T11:32:26.885Z",
+        "created_at": "2023-09-06T16:32:55.871Z",
+        "updated_at": "2023-09-06T10:03:47.572Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "21d92879-9c5d-4418-a313-27be1a7af4b1"
+      },
+      {
+        "id": "253e8f7e-c4bd-4aee-bbcd-e1925704f1f8",
+        "name": "Class E",
+        "start_time": "2023-09-06T05:22:11.066Z",
+        "end_time": "2023-09-06T04:45:05.077Z",
+        "created_at": "2023-09-05T19:10:44.811Z",
+        "updated_at": "2023-09-06T16:47:19.656Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "3018032a-3008-4e70-99a4-cfdb5117b35e"
+      }
+    ],
+    "student": [
+      {
+        "id": "7515830a-aca3-4b3d-8043-2ed5b9e1bbae",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T09:17:47.328Z",
+        "created_at": "2023-09-06T14:31:32.701Z",
+        "updated_at": "2023-09-06T09:34:16.607Z",
+        "class_id": "253e8f7e-c4bd-4aee-bbcd-e1925704f1f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bef7ae67-a467-484c-ac42-7ee70780063d",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-05T18:36:38.932Z",
+        "created_at": "2023-09-06T01:31:14.084Z",
+        "updated_at": "2023-09-06T15:41:18.706Z",
+        "class_id": "2596ac31-ae90-4077-b868-38e6e2e399de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7967b885-3770-4a2b-bacd-a7d23ad74d12",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-05T19:30:06.109Z",
+        "created_at": "2023-09-06T03:10:48.320Z",
+        "updated_at": "2023-09-06T08:09:41.657Z",
+        "class_id": "da5838e2-ad0c-4ac0-82dd-d6793d66d7d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c542fbb0-0731-4a18-9e9c-a43a0c424a9c",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T04:05:30.041Z",
+        "created_at": "2023-09-06T14:42:58.822Z",
+        "updated_at": "2023-09-06T03:36:23.015Z",
+        "class_id": "2596ac31-ae90-4077-b868-38e6e2e399de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a025cf10-37d1-4069-80cf-c6348da9340d",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "enrollment_date": "2023-09-06T06:51:13.599Z",
+        "created_at": "2023-09-05T22:38:13.245Z",
+        "updated_at": "2023-09-06T15:12:22.864Z",
+        "class_id": "7875dc19-2790-4617-85cc-696248320c60",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "dea67936-0a60-4a2d-97d8-8539b948bd31",
+        "date": "2023-09-05T21:57:49.284Z",
+        "status": "Present",
+        "created_at": "2023-09-06T11:52:12.046Z",
+        "updated_at": "2023-09-06T03:56:09.419Z",
+        "class_id": "253e8f7e-c4bd-4aee-bbcd-e1925704f1f8",
+        "student_id": "7967b885-3770-4a2b-bacd-a7d23ad74d12"
+      },
+      {
+        "id": "23559eea-800a-477d-b98c-de0e3b552fb6",
+        "date": "2023-09-05T23:15:38.727Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T10:32:45.573Z",
+        "updated_at": "2023-09-05T22:46:20.492Z",
+        "class_id": "7875dc19-2790-4617-85cc-696248320c60",
+        "student_id": "a025cf10-37d1-4069-80cf-c6348da9340d"
+      },
+      {
+        "id": "4d657792-bd2f-40c3-b312-32eecfd77480",
+        "date": "2023-09-06T09:08:36.484Z",
+        "status": "Late",
+        "created_at": "2023-09-06T15:03:41.356Z",
+        "updated_at": "2023-09-06T03:00:46.538Z",
+        "class_id": "11f4ed63-6f29-42f3-a74a-b3cce5cc1b24",
+        "student_id": "7515830a-aca3-4b3d-8043-2ed5b9e1bbae"
+      },
+      {
+        "id": "0f8d9edc-04f6-40a7-a64c-f2bda121a2a4",
+        "date": "2023-09-06T11:43:26.173Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T08:06:53.234Z",
+        "updated_at": "2023-09-05T17:42:49.231Z",
+        "class_id": "11f4ed63-6f29-42f3-a74a-b3cce5cc1b24",
+        "student_id": "a025cf10-37d1-4069-80cf-c6348da9340d"
+      },
+      {
+        "id": "4f0c99b7-5e63-4c7b-a501-eb78bd4aa1b5",
+        "date": "2023-09-06T08:47:03.753Z",
+        "status": "Tardy",
+        "created_at": "2023-09-05T22:52:51.413Z",
+        "updated_at": "2023-09-06T15:46:42.142Z",
+        "class_id": "253e8f7e-c4bd-4aee-bbcd-e1925704f1f8",
+        "student_id": "7967b885-3770-4a2b-bacd-a7d23ad74d12"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "66aea9fe-7b19-4235-9d93-95dc8a65b627",
+        "email": "Dylan.Kessler@hotmail.com",
+        "firstName": "Renee",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59457381",
+        "tenantId": null
+      },
+      {
+        "reference": "32bc12a0-4788-4d8f-9a45-c8c69470b63e",
+        "email": "Doyle99@yahoo.com",
+        "firstName": "Angie",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57310131",
+        "tenantId": null
+      },
+      {
+        "reference": "feef0d0c-3c3b-44d8-9132-cb2cca412db3",
+        "email": "Marcus70@hotmail.com",
+        "firstName": "Donnell",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72515261",
+        "tenantId": null
+      },
+      {
+        "reference": "d3bb1f8f-5a5b-4b23-98fe-689b13e4d838",
+        "email": "Rodrigo85@hotmail.com",
+        "firstName": "Isaias",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4df5798-59e7-4b03-af26-c86c67ed6191",
+        "email": "Jaycee22@gmail.com",
+        "firstName": "Greta",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "edf29ba3-5ff8-41c2-a9f7-c8a49766da1a",
+        "subject": "Mathematics",
+        "created_at": "2023-09-06T14:20:37.329Z",
+        "updated_at": "2023-09-05T17:21:23.889Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfa1a422-c58e-41f8-94b5-6a4606d4f8a5",
+        "subject": "Science",
+        "created_at": "2023-09-06T07:47:51.637Z",
+        "updated_at": "2023-09-05T21:13:42.841Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35041c98-ae25-407e-a409-538cd5fd532f",
+        "subject": "English",
+        "created_at": "2023-09-06T08:05:54.905Z",
+        "updated_at": "2023-09-06T06:34:47.148Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9ebfd5e-b813-4c84-b5f6-0eb6d3e6afb4",
+        "subject": "History",
+        "created_at": "2023-09-06T09:45:42.398Z",
+        "updated_at": "2023-09-06T04:55:20.312Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08b07fb0-d121-442a-a462-24f87c1040c6",
+        "subject": "Computer Science",
+        "created_at": "2023-09-06T16:01:29.583Z",
+        "updated_at": "2023-09-06T05:01:08.487Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "e28ce7c9-6393-4fdb-b1f5-51130c8003c2",
+        "name": "Class A",
+        "start_time": "2023-09-06T03:10:10.353Z",
+        "end_time": "2023-09-06T09:28:57.686Z",
+        "created_at": "2023-09-06T14:06:42.552Z",
+        "updated_at": "2023-09-05T18:24:30.724Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "c9ebfd5e-b813-4c84-b5f6-0eb6d3e6afb4"
+      },
+      {
+        "id": "23056d6d-37a1-4c48-9648-befc390bcebe",
+        "name": "Class B",
+        "start_time": "2023-09-06T03:14:32.374Z",
+        "end_time": "2023-09-06T15:51:08.738Z",
+        "created_at": "2023-09-06T05:08:40.131Z",
+        "updated_at": "2023-09-05T20:39:16.609Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "dfa1a422-c58e-41f8-94b5-6a4606d4f8a5"
+      },
+      {
+        "id": "ab972a10-85cb-4d6a-a2e7-0745568f5a68",
+        "name": "Class C",
+        "start_time": "2023-09-05T17:02:59.003Z",
+        "end_time": "2023-09-06T14:15:26.589Z",
+        "created_at": "2023-09-06T14:08:32.143Z",
+        "updated_at": "2023-09-06T10:42:11.425Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "dfa1a422-c58e-41f8-94b5-6a4606d4f8a5"
+      },
+      {
+        "id": "e0e70c86-746f-46dd-9967-3ead6845d6f6",
+        "name": "Class D",
+        "start_time": "2023-09-05T21:05:28.920Z",
+        "end_time": "2023-09-06T06:24:24.512Z",
+        "created_at": "2023-09-06T16:49:37.287Z",
+        "updated_at": "2023-09-05T19:37:59.972Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "35041c98-ae25-407e-a409-538cd5fd532f"
+      },
+      {
+        "id": "99a5e905-190d-411e-9059-31edf8daa35c",
+        "name": "Class E",
+        "start_time": "2023-09-06T10:49:40.401Z",
+        "end_time": "2023-09-06T08:16:40.611Z",
+        "created_at": "2023-09-05T17:58:03.596Z",
+        "updated_at": "2023-09-05T23:16:34.279Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "c9ebfd5e-b813-4c84-b5f6-0eb6d3e6afb4"
+      }
+    ],
+    "student": [
+      {
+        "id": "17c350ca-55aa-4d04-99da-86b9dc89b1b7",
+        "first_name": "John",
+        "last_name": "Doe",
+        "enrollment_date": "2023-09-06T01:17:05.098Z",
+        "created_at": "2023-09-05T22:35:22.249Z",
+        "updated_at": "2023-09-06T01:42:02.996Z",
+        "class_id": "ab972a10-85cb-4d6a-a2e7-0745568f5a68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b5fa40a-9490-4f73-80c5-30d4bac944d1",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-05T18:36:39.764Z",
+        "created_at": "2023-09-06T03:49:58.500Z",
+        "updated_at": "2023-09-05T23:38:27.397Z",
+        "class_id": "e0e70c86-746f-46dd-9967-3ead6845d6f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb84643-4a14-4783-a9aa-cfe65d44effa",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-06T01:47:20.486Z",
+        "created_at": "2023-09-06T06:44:26.340Z",
+        "updated_at": "2023-09-05T21:29:35.292Z",
+        "class_id": "e0e70c86-746f-46dd-9967-3ead6845d6f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b35014-5935-460c-ac60-c2209f07926e",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "enrollment_date": "2023-09-05T21:17:11.992Z",
+        "created_at": "2023-09-06T08:40:43.313Z",
+        "updated_at": "2023-09-06T06:39:01.650Z",
+        "class_id": "ab972a10-85cb-4d6a-a2e7-0745568f5a68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6bbc9e6-03ea-4102-b5f9-965dda731863",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T00:18:57.028Z",
+        "created_at": "2023-09-05T22:03:45.883Z",
+        "updated_at": "2023-09-06T07:50:55.607Z",
+        "class_id": "23056d6d-37a1-4c48-9648-befc390bcebe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "e3a94976-825b-4d46-8eee-f03ae71407a1",
+        "date": "2023-09-05T21:01:16.492Z",
+        "status": "Present",
+        "created_at": "2023-09-06T13:32:59.748Z",
+        "updated_at": "2023-09-06T02:03:16.308Z",
+        "class_id": "ab972a10-85cb-4d6a-a2e7-0745568f5a68",
+        "student_id": "2b5fa40a-9490-4f73-80c5-30d4bac944d1"
+      },
+      {
+        "id": "5dacf177-e5dc-46cb-85a0-13e5b636edd2",
+        "date": "2023-09-06T04:02:56.277Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T03:57:01.579Z",
+        "updated_at": "2023-09-06T08:43:44.368Z",
+        "class_id": "23056d6d-37a1-4c48-9648-befc390bcebe",
+        "student_id": "17c350ca-55aa-4d04-99da-86b9dc89b1b7"
+      },
+      {
+        "id": "7b40bcea-f779-4feb-9df8-88839a8eb2f2",
+        "date": "2023-09-06T11:37:57.714Z",
+        "status": "Late",
+        "created_at": "2023-09-06T00:36:22.445Z",
+        "updated_at": "2023-09-06T06:59:54.787Z",
+        "class_id": "e0e70c86-746f-46dd-9967-3ead6845d6f6",
+        "student_id": "2b5fa40a-9490-4f73-80c5-30d4bac944d1"
+      },
+      {
+        "id": "48f97267-e650-46cb-b598-4e487855abd2",
+        "date": "2023-09-06T02:35:42.169Z",
+        "status": "Excused",
+        "created_at": "2023-09-05T17:51:13.448Z",
+        "updated_at": "2023-09-06T08:32:10.355Z",
+        "class_id": "e0e70c86-746f-46dd-9967-3ead6845d6f6",
+        "student_id": "96b35014-5935-460c-ac60-c2209f07926e"
+      },
+      {
+        "id": "3ca9ab59-9bc8-4f44-9c6f-804658b4f75e",
+        "date": "2023-09-06T00:23:40.812Z",
+        "status": "Sick",
+        "created_at": "2023-09-06T10:44:05.237Z",
+        "updated_at": "2023-09-05T20:23:07.253Z",
+        "class_id": "23056d6d-37a1-4c48-9648-befc390bcebe",
+        "student_id": "c6bbc9e6-03ea-4102-b5f9-965dda731863"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f6bdfcb1-76a8-47d0-80b0-87ad2280b75f",
+        "email": "Kaycee_Purdy-Collins86@hotmail.com",
+        "firstName": "Terry",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72732547",
+        "tenantId": null
+      },
+      {
+        "reference": "d6349d12-74f8-491f-b00a-c27aaaf03a83",
+        "email": "Lyla68@gmail.com",
+        "firstName": "Catalina",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/629.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c8a5b91-572a-4d99-9fe2-d25564dc3c8c",
+        "email": "Tyra.Kshlerin@gmail.com",
+        "firstName": "Isadore",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54344716",
+        "tenantId": null
+      },
+      {
+        "reference": "e308debc-d3ac-4edf-b6c8-39a4d3dfda6a",
+        "email": "Rosemary76@gmail.com",
+        "firstName": "Salma",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7e19b6a-f476-4294-b66c-ea56de5cf7d2",
+        "email": "Karolann67@yahoo.com",
+        "firstName": "Florencio",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49962131",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "teacher": [
+      {
+        "id": "a451909b-8013-4366-b40c-fd5be93d65dc",
+        "subject": "Mathematics",
+        "created_at": "2023-09-05T18:30:42.804Z",
+        "updated_at": "2023-09-05T20:00:59.229Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e95935e-ca23-4b0e-9699-fd495d292742",
+        "subject": "Science",
+        "created_at": "2023-09-06T04:48:38.697Z",
+        "updated_at": "2023-09-06T15:05:12.092Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dea186d0-4796-4509-b3a6-e6caa7be52ac",
+        "subject": "English",
+        "created_at": "2023-09-06T05:04:17.265Z",
+        "updated_at": "2023-09-06T04:22:34.792Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15c7d0d8-c32a-453e-8bd5-f99487b82bc0",
+        "subject": "History",
+        "created_at": "2023-09-05T21:45:34.270Z",
+        "updated_at": "2023-09-06T14:24:39.421Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33c92fce-fe4f-499b-b3e2-5b7df4b4e1db",
+        "subject": "Computer Science",
+        "created_at": "2023-09-05T19:40:50.158Z",
+        "updated_at": "2023-09-06T08:46:20.991Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "3dc46d5f-279c-4790-a25d-d364870a33f8",
+        "name": "Class A",
+        "start_time": "2023-09-05T22:03:07.409Z",
+        "end_time": "2023-09-06T08:34:20.791Z",
+        "created_at": "2023-09-06T13:27:05.383Z",
+        "updated_at": "2023-09-06T07:27:36.011Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "dea186d0-4796-4509-b3a6-e6caa7be52ac"
+      },
+      {
+        "id": "da20bd5c-e262-4e5c-b4e2-c4f7b3e82403",
+        "name": "Class B",
+        "start_time": "2023-09-06T08:33:43.700Z",
+        "end_time": "2023-09-05T17:32:26.156Z",
+        "created_at": "2023-09-06T14:32:28.873Z",
+        "updated_at": "2023-09-05T20:46:35.858Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "1e95935e-ca23-4b0e-9699-fd495d292742"
+      },
+      {
+        "id": "e7f5c935-4c78-4f90-9df6-6e1a6d99e5a4",
+        "name": "Class C",
+        "start_time": "2023-09-05T19:51:46.156Z",
+        "end_time": "2023-09-06T10:39:24.904Z",
+        "created_at": "2023-09-06T16:22:29.618Z",
+        "updated_at": "2023-09-06T16:00:46.377Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "15c7d0d8-c32a-453e-8bd5-f99487b82bc0"
+      },
+      {
+        "id": "9c5db3fc-63ca-4a0f-a70c-8a57f34d4771",
+        "name": "Class D",
+        "start_time": "2023-09-06T14:29:09.524Z",
+        "end_time": "2023-09-05T22:20:16.777Z",
+        "created_at": "2023-09-06T15:54:09.145Z",
+        "updated_at": "2023-09-05T20:29:02.622Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "33c92fce-fe4f-499b-b3e2-5b7df4b4e1db"
+      },
+      {
+        "id": "9453afa6-e099-4914-a32d-e7bf404962b1",
+        "name": "Class E",
+        "start_time": "2023-09-06T06:23:27.973Z",
+        "end_time": "2023-09-05T20:13:53.331Z",
+        "created_at": "2023-09-05T18:32:04.240Z",
+        "updated_at": "2023-09-05T21:54:27.975Z",
+        "organization_id": "main_entity_pk",
+        "teacher_id": "15c7d0d8-c32a-453e-8bd5-f99487b82bc0"
+      }
+    ],
+    "student": [
+      {
+        "id": "cf2e0e87-78bd-4d23-b27a-895219b48ce0",
+        "first_name": "Adam",
+        "last_name": "Johnson",
+        "enrollment_date": "2023-09-06T12:24:54.479Z",
+        "created_at": "2023-09-06T02:09:54.806Z",
+        "updated_at": "2023-09-06T13:20:51.204Z",
+        "class_id": "e7f5c935-4c78-4f90-9df6-6e1a6d99e5a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4761cb09-226b-4040-a267-8db6c7697e1d",
+        "first_name": "Eva",
+        "last_name": "Wilson",
+        "enrollment_date": "2023-09-06T01:28:03.903Z",
+        "created_at": "2023-09-06T00:58:27.801Z",
+        "updated_at": "2023-09-06T16:25:22.795Z",
+        "class_id": "9453afa6-e099-4914-a32d-e7bf404962b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dffb97c-191e-4fd8-bbc8-be4c3cbe0048",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "enrollment_date": "2023-09-06T06:02:53.204Z",
+        "created_at": "2023-09-06T07:54:49.652Z",
+        "updated_at": "2023-09-06T00:02:36.554Z",
+        "class_id": "da20bd5c-e262-4e5c-b4e2-c4f7b3e82403",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20d8bc2b-be7a-4739-a5fa-c940ab756293",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "enrollment_date": "2023-09-06T06:26:13.717Z",
+        "created_at": "2023-09-06T08:39:14.618Z",
+        "updated_at": "2023-09-06T14:51:58.601Z",
+        "class_id": "9453afa6-e099-4914-a32d-e7bf404962b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c6c1469-620e-43f2-b893-b8c18ef7a111",
+        "first_name": "Oliver",
+        "last_name": "Taylor",
+        "enrollment_date": "2023-09-06T16:18:09.855Z",
+        "created_at": "2023-09-06T11:45:35.677Z",
+        "updated_at": "2023-09-05T22:11:07.340Z",
+        "class_id": "9453afa6-e099-4914-a32d-e7bf404962b1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "1d81760c-930c-497c-bf08-5fa9fe16bc8f",
+        "date": "2023-09-06T09:26:39.222Z",
+        "status": "Present",
+        "created_at": "2023-09-06T14:09:13.472Z",
+        "updated_at": "2023-09-05T16:51:05.156Z",
+        "class_id": "e7f5c935-4c78-4f90-9df6-6e1a6d99e5a4",
+        "student_id": "cf2e0e87-78bd-4d23-b27a-895219b48ce0"
+      },
+      {
+        "id": "0ec96c31-23c7-462d-a9f5-988bd6719219",
+        "date": "2023-09-05T18:32:31.743Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T10:30:42.651Z",
+        "updated_at": "2023-09-06T07:58:20.534Z",
+        "class_id": "e7f5c935-4c78-4f90-9df6-6e1a6d99e5a4",
+        "student_id": "20d8bc2b-be7a-4739-a5fa-c940ab756293"
+      },
+      {
+        "id": "3c748415-3e2f-49aa-b67e-419fec015a94",
+        "date": "2023-09-06T01:14:55.581Z",
+        "status": "Late",
+        "created_at": "2023-09-05T20:19:26.506Z",
+        "updated_at": "2023-09-05T21:37:27.628Z",
+        "class_id": "e7f5c935-4c78-4f90-9df6-6e1a6d99e5a4",
+        "student_id": "20d8bc2b-be7a-4739-a5fa-c940ab756293"
+      },
+      {
+        "id": "baa73d76-103f-4000-bb1e-d8bc97d9344e",
+        "date": "2023-09-05T23:01:18.525Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T01:45:32.181Z",
+        "updated_at": "2023-09-05T20:41:56.424Z",
+        "class_id": "da20bd5c-e262-4e5c-b4e2-c4f7b3e82403",
+        "student_id": "cf2e0e87-78bd-4d23-b27a-895219b48ce0"
+      },
+      {
+        "id": "0c139866-a25d-4211-afc2-b19601008e0b",
+        "date": "2023-09-06T07:07:35.878Z",
+        "status": "Sick",
+        "created_at": "2023-09-06T02:18:55.838Z",
+        "updated_at": "2023-09-06T00:00:24.043Z",
+        "class_id": "3dc46d5f-279c-4790-a25d-d364870a33f8",
+        "student_id": "6c6c1469-620e-43f2-b893-b8c18ef7a111"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a2fc5b8-49c0-4d5e-a7ae-a6009c8ee83a",
+        "email": "Lavina92@yahoo.com",
+        "firstName": "Jamaal",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1012.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ce898b8-9a09-4efc-acd9-8eb4ed7b4737",
+        "email": "Edward60@hotmail.com",
+        "firstName": "Rylan",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a5c9db2-8869-40cf-ab33-0984cbaa5b5a",
+        "email": "Norberto.Stehr21@hotmail.com",
+        "firstName": "Agustin",
+        "lastName": "Heaney-Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4155383-b9dc-491a-90c1-67f85c0035c8",
+        "email": "Laurine39@yahoo.com",
+        "firstName": "Evalyn",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8af37c8-86c9-4833-8ebb-518f2632ca11",
+        "email": "Keshaun_Simonis4@yahoo.com",
+        "firstName": "Rosetta",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/750.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
